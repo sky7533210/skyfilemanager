@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#000000"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="40dp"
+			android:orientation="horizontal">
+
+			<ImageView
+				android:src="@drawable/re_icon"
+				android:layout_width="40dp"
+				android:layout_height="fill_parent"/>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/btn0"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:textColor="#ffffff"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="30dp"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/list1"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:background="@drawable/white"
+				android:ellipsize="end"
+				android:gravity="center"
+				android:text="0"
+				android:textColor="#ffffff"/>
+
+			<Button
+				android:id="@+id/list2"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:background="@drawable/black"
+				android:ellipsize="end"
+				android:gravity="center"
+				android:text="0"
+				android:textColor="#ffffff"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:text="123456"/>
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0">
+
+			<ListView
+				android:id="@+id/listview"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:cacheColorHint="#00000000"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/bun1"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="1dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_selector"
+			android:text="书签"
+			android:textColor="#ffffff"/>
+
+		<Button
+			android:id="@+id/idbtnnew"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_selector"
+			android:text="新建"
+			android:textColor="#ffffff"/>
+
+		<Button
+			android:id="@+id/but3"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_selector"
+			android:text="搜索"
+			android:textColor="#ffffff"/>
+
+		<Button
+			android:id="@+id/idbtnsort"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="1dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_selector"
+			android:text="排序"
+			android:textColor="#ffffff"/>
+
+		<Button
+			android:id="@+id/butMenu"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_marginLeft="1dp"
+			android:layout_marginRight="2dp"
+			android:layout_weight="1"
+			android:background="@drawable/button_selector"
+			android:text="菜单"
+			android:textColor="#ffffff"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

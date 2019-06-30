@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sky.filemanger.MainActivity" >
+
+    <item
+        android:id="@+id/utf_ecode"
+        android:title="UTF-8编码"/>
+	<item
+        android:id="@+id/gbk_ecode"
+        android:title="GBK编码"/>
+
+</menu>

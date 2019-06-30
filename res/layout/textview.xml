@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="35dp"
+		android:background="#777777"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:src="@drawable/re_icon"
+			android:id="@+id/imageView1"
+			android:layout_height="match_parent"
+			android:layout_width="35dp"/>
+
+		<TextView
+			android:id="@+id/textFileName"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text=""
+			android:textColor="#ffffff"
+			android:textSize="20sp"
+			android:layout_weight="1.0"
+			/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:background="@drawable/toolbar_ecode"
+			android:padding="0dp"
+			android:id="@+id/textviewbtnMenu"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_weight="1.0"
+		android:scrollbars="vertical">
+
+		<TextView
+			android:id="@+id/text"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:maxLines="9999"
+			android:scrollbars="vertical"
+			android:textColor="#000000"
+			android:textStyle="normal"
+			android:typeface="normal"
+			android:textIsSelectable="true"
+			/>
+
+	</ScrollView>
+
+</LinearLayout>
+

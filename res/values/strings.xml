@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sky文件管理器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+	<string name="sdcard_error">当前SDCard状态不正常，请检查后在运行！</string>
+	<string name="folder">文件夹</string>
+	<string name="file">文件</string>
+	<string name="copy">复制</string>
+	<string name="move">移动</string>
+	<string name="rename">重命名</string>
+	<string name="plz_input_new_name">请输入名字</string>
+	<string name="confirm">确定</string>
+	<string name="cancel">取消</string>
+	<string name="name_is_not_null">名字不能为空,请输入名字后再重命名</string>
+	<string name="rename_success">重命名成功</string>
+	<string name="create_folder_success">新建文件夹成功</string>
+	<string name="create_folder_fail">新建文件夹失败</string>
+	<string name="rename_fail">重命名失败</string>
+	<string name="new_create_folder">新建文件夹</string>
+    <string name="file_manager">文件管理器</string>
+    <string name="can_not_open_file">无法打开，请安装相应的软件！</string>
+    <string name="not_file">对不起，这不是文件！</string>
+    <drawable name="black">#333333</drawable>
+    <drawable name="white">#666666</drawable>
+</resources>

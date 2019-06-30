@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/openbytext"
+        android:title="以文本方式打开"       
+	/>
+	<item 
+        android:id="@+id/delete"
+        android:title="删除"
+        />
+      <item android:id="@+id/rename"
+        android:title="@string/rename"
+        />
+      <item android:id="@+id/copy"
+        android:title="@string/copy"
+        />  
+   	  <item android:id="@+id/move"
+        android:title="@string/move"       
+        />
+   	    <item android:id="@+id/property"
+        android:title="属性"       
+        />
+</menu>
